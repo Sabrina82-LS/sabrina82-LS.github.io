@@ -4,15 +4,28 @@
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
 body { line-height: 1.5; min-height: 100vh }
+body { background-color: orange ; }
 @media (max-width: 767px ) { body { text-rendering: optimizeSpeed } }
 @media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 /* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
+
+/* Desktops */
+@media (min-width: 768px) {
+    body { padding: 4% 20% }
+ }
+ 
+ /* Mobiles */
+ @media (max-width: 767px) {
+    body { padding: 8% 5% }
+ }
+
+
 body { padding: 4% 20% }
 
-/* ================= ENDS ================ */
+
 
 h1 {
     font-size: 84px;
@@ -20,6 +33,7 @@ h1 {
     text-align: center;
     font-weight: normal;
     letter-spacing: 4px;
+    color: blue;
 }
 
 h2 {
@@ -27,6 +41,7 @@ h2 {
     margin-bottom: 4px;
     margin-top: 54px;
     text-transform: uppercase;
+    color: blue;
 }
 
 p {
@@ -34,4 +49,7 @@ p {
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
+}
+a { 
+    color: white; 
 }
