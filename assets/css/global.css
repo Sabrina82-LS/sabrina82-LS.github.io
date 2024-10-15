@@ -13,15 +13,15 @@ input, button, textarea, select { font: inherit }
 
 /* Desktops */
 @media (min-width: 768px) {
-    body { padding: 4% 20% }
+    section { padding: 4% 20% }
  }
  
  /* Mobiles */
  @media (max-width: 767px) {
-    body { padding: 8% 5% }
+    section { padding: 8% 5% }
  }
 
-body { padding: 4% 20% }
+
 
 body { background-color: #0F0F34; }
 
@@ -66,3 +66,4 @@ a {
     font-weight: bold;
     color: #E49273; 
 }
+
