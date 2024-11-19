@@ -331,7 +331,9 @@ section p { font-size: var(--fs-md) }
     background-color: #fff; color: #000;
     font-size: var(--fs-sm);
 }
-.section-selector-1 h2, .section-selector-1 p { color: #fff }
+.section-selector-1 h2, .section-selector-1 p { 
+    color: #fff;
+    font-family: 'Work Sans', var(--font-sans); }
 .section-selector-1 h2 { letter-spacing: 1px }
 .section-selector-1 h2 span { color: var(--amber-400) }
 
@@ -340,6 +342,8 @@ section p { font-size: var(--fs-md) }
  }
  .section-selector-2 h2 { letter-spacing: 1px }
  .section-selector-2 h2 span { color: var(--red-600) }
+ .section-selector-2 h2,
+ .section-selector-2 p {font-family: 'Outfit', var(--font-sans);}
 
 .section-selector-3 { background-color: var(--yellow-300) }
 .section-selector-3 h2 { font-weight: 400 }
@@ -353,17 +357,22 @@ section p { font-size: var(--fs-md) }
 .section-selector-4 h2 { 
     color: #fff;
     font-family: var(--fs-monospace);
-    font-size: var(--fs-xxxl);
+    font-size: var(--fs-xxl);
 }
 .section-selector-4 p { color: var(--gray-200) }
 
 .section-selector-5 { background-color: var(--trend-050) }
 .section-selector-5 p { color: var(--gray-700) }
+.section-selector-5 h2,
+.section-selector-5 h3,
+.section-selector-5p {font-family: 'Playfair Display', var(--font-serif);}
 
 .section-selector-6 { background-color: var(--purple-200) }
 .section-selector-6 h2 {
     letter-spacing: 3px;
-    color: var(--blue-800)
+    color: var(--blue-800);
     font-size: var(--fs-xxxl);
+    
 }
 .section-selector-6 h2 span { color: var(--red-600) }
+
