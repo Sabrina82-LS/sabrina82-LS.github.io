@@ -1,3 +1,4 @@
+/* Add your custom CSS here */
 /*  ============= WEB BROWSER RESETS ============ */
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
@@ -285,7 +286,7 @@ section *:last-child { margin-bottom: 0 !important }
 .watermelon {
     background-color: var(--pink-200);
     text-align: center;
-}   
+}
 
 .watermelon h3 {
     color: var(--pink-800);
@@ -337,4 +338,6 @@ p {
     margin-bottom: 32px;
     color: var(--gray-800);
 }
+
+
 

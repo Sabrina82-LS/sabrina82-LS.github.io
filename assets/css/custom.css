@@ -1,13 +1,13 @@
 
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: red}
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color:#CC5803 }
 
-header.theme-dark   { background-color: #0f172a }
+header.theme-dark   { background-color:black }
 
-header.theme-dark  h1 { color: var(--sky-400); }
+header.theme-dark  h1 { color: var(black); }
 
-section.theme-dark   { background-color: #0f172a }
+section.theme-dark   { background-color: black}
 
-footer.theme-dark   { background-color: #0f172a }
+footer.theme-dark   { background-color:#CC5803 }
 
 
 
